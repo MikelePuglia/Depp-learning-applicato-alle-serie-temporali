@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+venv/
+env/
+.venv/
+
+# distribution
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Machine Learning / Deep Learning
+# =========================
+
+# model weights
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# tensorboard
+runs/
+logs/
+
+# =========================
+# Data
+# =========================
+
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.tsv
+
+# =========================
+# Plots
+# =========================
+
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# =========================
+# Cache
+# =========================
+
+.cache/
+.pytest_cache/
+
+# =========================
+# Temporary
+# =========================
+
+tmp/
+temp/
